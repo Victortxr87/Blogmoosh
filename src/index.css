@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.blog-slider .swiper-button-next,
+.blog-slider .swiper-button-prev {
+  color: #FFD700;
+  width: 40px;
+  height: 40px;
+  background: rgba(42, 42, 64, 0.8);
+  border-radius: 50%;
+}
+
+.blog-slider .swiper-button-next:after,
+.blog-slider .swiper-button-prev:after {
+  font-size: 20px;
+}
+
+.blog-slider .swiper-pagination-bullet {
+  background: #FFD700;
+  opacity: 0.5;
+}
+
+.blog-slider .swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+.prose {
+  color: #fff;
+  max-width: none;
+}
+
+.prose a {
+  color: #FFD700;
+}
+
+.prose strong {
+  color: #fff;
+}
+
+.prose blockquote {
+  color: #d1d1d1;
+  border-left-color: #FFD700;
+}
+
+.prose img {
+  border-radius: 0.5rem;
+}
+
+.prose h1, .prose h2, .prose h3, .prose h4 {
+  color: #fff;
+}
+
+.prose code {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0.2em 0.4em;
+  border-radius: 0.25rem;
+}
+
+.prose pre {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 0.5rem;
+}
+
+
+.elementor-widget-container h4 {
+  color: #DB7C22;
+  font-size: 18px;
+  padding: 16px 0;
+  font-weight: 600;
+}
+
+.elementor-widget-container {
+  margin: 10px 0px;
+}
+
+.elementor-widget-container ul {
+  margin-left: 10px;
+}
+
+.elementor-widget-container li {
+  margin: 10px;
+  list-style: disc;
+  text-align: justify;
+  font-size: 16px;
+}
+
+.elementor-widget-container h5 {
+  color: #DB7C22;
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.elementor-widget-container p {
+  text-align: justify;
+  text-wrap: pretty;
+  font-size: 16px;
+}
+
+
